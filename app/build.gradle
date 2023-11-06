@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.zf.learning'
+
 }
 
 android {
@@ -25,6 +27,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -34,6 +37,7 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures {
+
         compose true
     }
     composeOptions {
@@ -64,3 +68,33 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }
+
+
+//class GreetingPlugin implements Plugin<Project> {
+//    void apply(Project project) {
+//        def ex = project.extensions.create("greeting", GreetingPluginExtension)
+//        project.afterEvaluate {
+//            def android = project.extensions.getByName("android")
+//            android.defaultConfig.buildConfigField("String", "WX_APPID", "\"wxf23050fbba359042\"")
+////            project.android.defaultConfig.buildConfigField("String", "xiaomi", "\"0000000000000000000\"")
+//            println project.android.defaultConfig.versionCode
+//        }
+//    }
+//}
+//
+//
+//
+//
+//
+//class GreetingPluginExtension {
+//    String m
+//}
+//
+//// Apply the plugin
+//apply plugin: GreetingPlugin
+//
+//greeting {
+//    m = 'Hi from Gradle'
+//}
+
+

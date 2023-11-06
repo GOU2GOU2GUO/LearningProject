@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.zf.ktslearninglib",
+    "module": "ktsLearningLib",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ktsLearningLib-0.0.1.jar",
+          "url": "ktsLearningLib-0.0.1.jar",
+          "size": 8295,
+          "sha512": "1577ab970ae4449a00361b752b7d73c81682f34f3653fae1a004ab4b6844b8311010c9441b79ce5a2bb9cb455238201ee51e4eb342b81aa9c2c99a51dfafdb10",
+          "sha256": "e67c631aa9efd080eb4cc3d83876185c1f1a6c75d32a9a5bdb74878f253d19a9",
+          "sha1": "3d04695ecba438aac8ee0aa0b7637f36bb4fcb7c",
+          "md5": "8b25da91e37a946b19cd3cbea24fa985"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ktsLearningLib-0.0.1.jar",
+          "url": "ktsLearningLib-0.0.1.jar",
+          "size": 8295,
+          "sha512": "1577ab970ae4449a00361b752b7d73c81682f34f3653fae1a004ab4b6844b8311010c9441b79ce5a2bb9cb455238201ee51e4eb342b81aa9c2c99a51dfafdb10",
+          "sha256": "e67c631aa9efd080eb4cc3d83876185c1f1a6c75d32a9a5bdb74878f253d19a9",
+          "sha1": "3d04695ecba438aac8ee0aa0b7637f36bb4fcb7c",
+          "md5": "8b25da91e37a946b19cd3cbea24fa985"
+        }
+      ]
+    }
+  ]
+}
