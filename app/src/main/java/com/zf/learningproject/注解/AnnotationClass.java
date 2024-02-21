@@ -5,7 +5,9 @@ import androidx.annotation.NonNull;
 
 import java.lang.annotation.Annotation;
 
-public class AnnotationClass   {
+public class AnnotationClass  {
+
+
 
     @NonNull
     @Override
